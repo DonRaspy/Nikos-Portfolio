@@ -1,23 +1,25 @@
 body{
     display:flex;
-    background-color: #eeeeee;
+    background-color: #d4d4d4;
     flex-direction:column;
 }
 .container{
     display:flex;
     flex-direction: column;
     width: 100%;
-    align-items: left;
-    padding: 60px;
-    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
 }
 .intro{
     margin: 0px;
     padding: 0px;
-    display:flex;
+    display:inline-block;
     font-weight: bold;
     font-size: 50px;
     box-sizing: border-box;
+    height: 100px;
+    align-items: center;
 }
 .hero{
     display:flex;
@@ -26,11 +28,15 @@ body{
     margin-top: 100px;
     box-sizing: border-box;
     flex-wrap: nowrap;
+    height: 200px;
+    text-align: center;
 }
 .email{
     display:flex;
     flex-wrap: wrap;
     font-size: 20px;
+    margin-top: 200px;
+    align-items: left;
 }
 .skill-container{
     display:flex;
